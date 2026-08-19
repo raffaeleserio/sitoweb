@@ -1,0 +1,19 @@
+    h4 {margin-bottom: 0;
+    }
+    
+    .indent1 {
+        display: inline-block;
+        margin-left: 48px;
+    }
+
+    .indent2 {
+        display: inline-block;
+        margin-left: 96px;
+        
+    }
+
+    .indent3 {
+        display: inline-block;
+        margin-left: 144px;
+        ;
+    }
