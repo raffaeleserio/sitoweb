@@ -22,7 +22,13 @@
     }
      */
 
-.quote {
-    text-align: right;
-}
+    .quote {
+        text-align: right;
+    }
 
+    .box {
+            border-style: solid;
+            border-width: 1px;
+            padding: 10px;
+        }
+        
