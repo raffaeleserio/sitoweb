@@ -1,34 +1,69 @@
-    body {
-    margin: 33px;
-    text-align: justify;
+body {
+margin: 33px;
+text-align: justify;
 
-    }
-
-    h3 {margin-bottom: 0px;
-        text-align: center;
-    }
-
-    h4 {margin-bottom: 0px;
-    }
-
-    ul {
-  list-style-type: none;
 }
 
-    /* 
-    .indent1 {
-        display: inline-block;
-        margin-left: 48px;
-    }
-     */
+h3 {margin-bottom: 0px;
+    text-align: center;
+}
 
-    .quote {
-        text-align: right;
+h4 {margin-bottom: 0px;
+}
+
+ul {
+list-style-type: none;
+}
+
+/* 
+.indent1 {
+    display: inline-block;
+    margin-left: 48px;
+}
+    */
+
+.quote {
+    text-align: right;
+}
+
+.box {
+        border-style: solid;
+        border-width: 1px;
+        padding: 10px;
     }
 
-    .box {
-            border-style: solid;
-            border-width: 1px;
-            padding: 10px;
-        }
-        
+.two-column-layout {
+        display: grid;
+        gap: 17px;
+        grid-template-columns: 1fr 1fr; 
+
+}        
+
+.wrapper1 {
+
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .wrapper2 {
+
+        width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/* NUMBERING METHOD */
+.counter {
+    counter-reset: counter;
+}
+
+.numbering-method-§::before { 
+    counter-increment: counter;
+    content: "§" counter(counter) ". ";
+}
+
+.numbering-method-parenthesis::before { 
+    counter-increment: counter;
+    content: "(" counter(counter) ") ";
+}
